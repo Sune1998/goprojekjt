@@ -23,7 +23,7 @@ func main() {
 	fmt.Print("\n")
 	//calling proofOfIf method
 	proofOfIf()
-
+	fmt.Print("\n")
 	//declaring construct
 	p := person{name: "Patrick", age: 26}
 	fmt.Print(p)
