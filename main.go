@@ -19,6 +19,15 @@ func main() {
 	println("hej")
 	//calling patrick method
 	patrick()
+	//prints a new line
+	fmt.Print("\n")
+	//calling proofOfIf method
+	proofOfIf()
+
+	//declaring construct
+	p := person{name: "Patrick", age: 26}
+	fmt.Print(p)
+
 }
 
 //method patrick, sets input type to string
@@ -64,4 +73,22 @@ func proofOfArray() {
 	//declaring array (a)
 	a := []string{"Bro ", "Kelvin ", "Rasmus ", "Patrick "}
 	fmt.Print(a)
+}
+
+func proofOfIf() {
+	//delcaring sum og sum1
+	sum := (5 + 5)
+	sum1 := (15 - 5)
+	//if statement
+	if sum == sum1 {
+		fmt.Print("Dette er et if statement")
+	}
+}
+
+//GO way of creating construct
+type person struct {
+	//setting name field to take string
+	//setting age field to take int
+	name string
+	age  int
 }
