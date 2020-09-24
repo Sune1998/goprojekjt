@@ -20,6 +20,8 @@ func main() {
 
 	patrick()
 }
+//hej
+
 func patrick() {
 	var input string
 
