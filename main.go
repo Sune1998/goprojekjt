@@ -20,8 +20,9 @@ func main() {
 
 	patrick()
 }
-//hej
 
+//hej
+// hej sune, hilsen patrick
 func patrick() {
 	var input string
 
