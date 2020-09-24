@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("enter a number in F")
+	fmt.Println("enter a number in F") 			// dette program konvertere F til C og fortæller dig om det er koldt eller varmt.
 	var input float64
 	fmt.Scanf("%f", &input)
 
@@ -23,7 +23,7 @@ func main() {
 
 //hej
 // hej sune, hilsen patrick
-func patrick() {
+func patrick() {        				// denne funktion spørg om dit navn 
 	var input string
 
 	fmt.Println("Hello, World! This is my first GO program")
